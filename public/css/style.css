@@ -184,8 +184,8 @@ p a:hover {
 /* Button */
 
 .buttom {
-	background: #a0cac0;
-    border-bottom: 4px solid #68a697;
+	background: #00B1F0;
+    border-bottom: 4px solid #0074E5;
     color: #FFFFFF;
     font-family: 'latolight', sans-serif;
     letter-spacing: 1px;
@@ -202,7 +202,7 @@ p a:hover {
   	transition: all 0.2s ease-out;}
 
 .buttom:hover {
-	background: #93b7ae;
+	background: #00C0F7;
 	cursor:pointer;}
 
 
@@ -259,9 +259,23 @@ nav {
 	-o-transition: color .2s ease-in, border-top-color .2s ease-in;
 	transition: color .2s ease-in, border-top-color .2s ease-in;}
 
+#nav li .language_selected {
+	text-transform: lowercase;
+	font-weight: bold;
+	padding-right: 120px;
+}
+
+#nav li .language_notselected {
+	text-transform: lowercase;
+}
+
+
+
+
 /* The hover state of the links */
 #nav li:hover a, #nav li .selected {
-	color: #E95855;}
+	color: #0074E5;
+}
 
 #nav>li.dropdown>a {
 	padding-right: 28px;}
@@ -351,7 +365,7 @@ nav {
 	width: 100%;
 	background: #FFF;
 	z-index: 10000;
-	height: 120px;
+	height: 130px;
 	border-bottom: 1px solid #e5e5e5;
 	overflow: hidden;
 	-webkit-transition: height 0.3s;
@@ -361,15 +375,15 @@ nav {
 /* FOR REDUCING THE HEIGHT OF THE NAVIGATION */
 
 .cbp-af-header #logo {
-	padding:30px 0px 0px 0px; 
-	width:300px;}
+	padding:20px 0px 0px 0px; 
+	width:200px;}
 
 .cbp-af-header #nav a {
 	line-height: 100px;}
 
 .cbp-af-header.cbp-af-header-shrink #logo { 
 	padding:20px 0px 0px 0px; 
-	width:150px;}
+	width:50px;}
 
 /* Transitions and class for reduced height */
 
@@ -392,7 +406,7 @@ nav {
 
 
 #header {
-	background: url(../img/clips2.jpg) ; /* COLOR ON MOBILE DEVICE ON LINE 980 */
+	background: url(../img/bookshelf2_reworked.png) ; /* COLOR ON MOBILE DEVICE ON LINE 980 */
 	background-color: #34495e;
 	background-position:center;
 	background-size: cover;
@@ -402,13 +416,13 @@ nav {
 	padding:190px 0 120px 0;
 	margin-top:50px;}
 
-#header h2 {color:#34495e;}
+#header h2 {color:#ffffff;}
 
 
 #header .lead {
 	font: 16px 'latolight', sans-serif;
 	font-size:1.3rem;
-	color:#34495e;}  
+	color:#ffffff;}  
 
 
 
@@ -493,8 +507,8 @@ nav {
     
 .filter li a:hover,
 .filter li a.active {
-    background-color: #F17C71;
-    border-bottom: 4px solid #E95855;
+    background-color: #00B1F0;
+    border-bottom: 4px solid #0074E5;
     color: #FFF;}
     
 .filter li a {
@@ -809,8 +823,8 @@ form input, .contact form input{
 	    cursor: pointer;
 	    font-size: 16px;
 	    color:#FFF;
-	    background: #a0cac0;
-	    border-bottom: 4px solid #68a697;
+	    background: #00B1F0;
+	    border-bottom: 4px solid #0074E5;
 	    -webkit-transition: all 0.2s ease-in-out;
 	    -moz-transition: all 0.2s ease-in-out;
 	    -ms-transition: all 0.2s ease-in-out;
@@ -820,7 +834,7 @@ form input, .contact form input{
 /* Button Send Hover */
 
 .contact form .submit:hover{
-		background: #93b7ae;
+		background: #00C0F7;
 		cursor:pointer;}
 
 /* Input & textarea when there's something missing  */
@@ -860,7 +874,7 @@ form input, .contact form input{
 
 #interblock_footer { 
 	padding: 100px 0; 
-	background: #F17C71; 
+	background: #00B1F0; 
 	color:#FFF;}
 
 /* Blockquote */
@@ -913,7 +927,7 @@ form input, .contact form input{
 /* Section */
 
 #contact_info {
-	background: #e95855;
+	background: #0074E5;
 	padding:30px;
 	color: #FFF;
 	text-transform: uppercase;}

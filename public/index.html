@@ -16,7 +16,24 @@
   <meta name="keywords" content="" />
   <meta name="author" content="humans.txt">
 
-  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" /> <!-- Favicon /-->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> <!-- Favicon /-->
+  <!-- If favicons  are needed for other devices and browsers: -->
+
+  <!--   <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png"> -->
 
   <!-- Facebook Metadata /-->
   <meta property="fb:page_id" content="" />
@@ -52,10 +69,11 @@
 				<div class="row">
 					<div class="mobile-menu-inner">
 						<ul class="nav-mobile">
-						 <li><a class="selected" href="#works">Works</a></li>
-						 <li><a href="#whatwedo">Services</a></li>
-						 <li><a href="#team">About</a></li>
-						 <li><a href="#contact">Contact</a></li>
+
+               <li><a class="selected" href="#whatwedo">Platform</a></li>
+  						 <li><a href="#works">Use Cases</a></li>
+  						 <li><a href="#team">Team</a></li>
+  						 <li><a href="#contact">Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -70,13 +88,18 @@
 		
 			<nav class="row">
 			
-				 <div id="logo"><a href="#"><img alt="YOURLOGO" src="img/logo.png"></a></div>
+				 <div id="logo"><a href="#"><img alt="YOURLOGO" src="img/logo_cropped_mini.png"></a></div>
 				
 				 <ul id="nav">
+
 					 <li><a href="#contact">Contact</a></li>
 					 <li><a href="#team">Team</a></li>
            <li><a href="#works">Use Cases</a></li>
-					 <li><a class="selected" href="#whatwedo">Product</a></li>
+					 <li><a class="selected" href="#whatwedo">Platform</a></li>
+
+           <li><a class="language_selected" href="#">English</a></li>
+           <li><a class="language_notselected" href="index_de.html">Deutsch</a></li>
+           
 				 </ul>
 				 
 			</nav>
@@ -97,7 +120,7 @@
     
       <div class="twelve columns centered">
               
-        <h2 class="fade-it2">the Platform for Academic Projects</h2>
+        <h2 class="fade-it2">the Platform for University Projects</h2>
         
         <p class="lead fade-it2">PEOPLE, PROJECTS, PURPOSE</p>
         
@@ -137,7 +160,7 @@
               
                <div class="two columns">
                
-                 <img src="img/questionmark2.png" alt="EXEMPLE">
+                 <img src="img/qm_newcolors.png" alt="EXEMPLE">
                  
                </div>
                
@@ -145,7 +168,8 @@
                  
                  <h3>The Problem</h3>
                  
-                 <p>Bacon ipsum dolor sit amet shank tri-tip pig, short loin pork belly boudin ground round flank sirloin bresaola filet mignon sausage beef ribs kielbasa. flow freely, we've created a studio where we can not only work but also have fun and learn. </p>
+                  <p>Universities lack a standardized process to describe and publish topics for Bachelor and Master Theses and semester projects. Based on department-specific websites and out-of-date Excel sheets, students and university staff use phone calls and emails to combine topics and students. The result are multiple, non-standardized, inefficient sequences of tasks with several error-prone media breaks. Meanwhile, students have trouble finding a suitable topic which matches their passion and interests. They end up investing a lot of time and effort into searching for and completing projects they are not entirely satisfied with. Resources are wasted and the quality of completed projects and written papers is lowered
+                  </p>
               
              </div>   
               
@@ -157,7 +181,7 @@
               
                <div class="two columns">
                
-                 <img src="img/exclamationmark2.png" alt="EXEMPLE">
+                 <img src="img/em_newcolors.png" alt="EXEMPLE">
                  
                </div>
                
@@ -177,7 +201,7 @@
               
                <div class="two columns">
                
-                 <img src="img/universities2.png" alt="EXEMPLE">
+                 <img src="img/uni_studs_newcolors.png" alt="EXEMPLE">
                  
                </div>
                
@@ -197,7 +221,7 @@
               
                <div class="two columns">
                
-                 <img src="img/students2.png" alt="EXEMPLE">
+                 <img src="img/stud_newcolors.png" alt="EXEMPLE">
                  
                </div>
                
@@ -284,7 +308,7 @@
           <li><a class="active" href="#" data-filter="*">All</a></li>
           <li><a href="#" data-filter=".print">Universities</a></li>
           <li><a href="#" data-filter=".webdesign">Students</a></li>
-          <li><a href="#" data-filter=".video">Companies</a></li>
+<!--           <li><a href="#" data-filter=".video">Companies</a></li> -->
         </ul>
 
         
@@ -338,7 +362,7 @@
             
        <!-- PHOTO -->
             
-          <li class="item video"><a onclick="$('#portfolio6').slideDown(); $('#portfolio1, #portfolio2, #portfolio3, #portfolio4, #portfolio5').slideUp(); $('html, body').animate({scrollTop: $('#portfolio_detail').offset().top }, 800);"><img src="http://placehold.it/300x300" alt="EXEMPLE" >
+          <li class="item webdesign"><a onclick="$('#portfolio6').slideDown(); $('#portfolio1, #portfolio2, #portfolio3, #portfolio4, #portfolio5').slideUp(); $('html, body').animate({scrollTop: $('#portfolio_detail').offset().top }, 800);"><img src="http://placehold.it/300x300" alt="EXEMPLE" >
             <div>
               <h5>NAME OF USE CASE</h5>
               <span>Example</span>
@@ -501,7 +525,7 @@
       <div class="nine columns">
       
         <h2>
-          We make it easy for students to find the perfect semester project, a bachelor or a master thesis.
+          We make it easy for students to find a suitable semester project, a bachelor or a master thesis.
         </h2>
         
         <p>We connect people, projects and purpose.</p>
@@ -557,10 +581,10 @@
 						
 						<div class="info-bottom a0" data-animate="fadeInUp">
           	
-							<a href="#" target="_blank"><i class="icon" data-icon="&#xe03e;"></i></a>
+							<a href="https://www.linkedin.com/pub/bj%C3%B6rn-thoma/64/9a9/484" target="_blank"><i class="icon" data-icon="&#xe03e;"></i></a>
               <!-- http://demos.jquerymobile.com/1.0a2/#docs/buttons/buttons-icons.html -->
     
-         			<a href="#" target="_blank"><i class='icon' data-icon="&#xe048;"></i></a>
+         			<a href="mailto:bjoern.thoma@theblueplatform.com" target="_blank"><i class='icon' data-icon="&#xe048;"></i></a>
 
 						</div>
 						
@@ -586,9 +610,9 @@
 						
 						<div class="info-bottom a0" data-animate="fadeInUp">
           	             				 	
-         				 	<a href="#" target="_blank"><i class="icon" data-icon="&#xe03e;"></i></a>
+         				 	<a href="https://www.linkedin.com/pub/patrick-haas/45/574/7a2" target="_blank"><i class="icon" data-icon="&#xe03e;"></i></a>
     
-         				 	<a href="#" target="_blank"><i class='icon' data-icon="&#xe048;"></i></a>
+         				 	<a href="mailto:patrick.haas@theblueplatform.com" target="_blank"><i class='icon' data-icon="&#xe048;"></i></a>
 
 						</div>
 						
@@ -613,9 +637,9 @@
 						
 						<div class="info-bottom a0" data-animate="fadeInUp">
           	
-							<a href="#" target="_blank"><i class="icon" data-icon="&#xe03e;"></i></a>
+							<a href="https://www.linkedin.com/pub/roman-macchi/64/b43/704" target="_blank"><i class="icon" data-icon="&#xe03e;"></i></a>
     
-         			<a href="#" target="_blank"><i class='icon' data-icon="&#xe048;"></i></a>
+         			<a href="mailto:roman.macchi@theblueplatform.com" target="_blank"><i class='icon' data-icon="&#xe048;"></i></a>
 
 						</div>
 						
@@ -761,8 +785,8 @@
     
 		  <div class="eight columns">
 		  
-	        <h2>We hope to hear from you soon.</h2>
-	        <p>Björn, Roman, Patrick</p>
+	        <h2>Have a look at us.</h2>
+          <p>And spread the word.</p>
     
     </div>
     
@@ -772,9 +796,9 @@
           
           <ul>
           	
-          	<li><a href="#" target="_blank"><i class="icon" data-icon="&#xe03e;"></i></a></li>
+          	<li><a href="https://www.linkedin.com/company/3579965?trk=vsrp_companies_res_name&trkInfo=VSRPsearchId%3A1596545061396697334914%2CVSRPtargetId%3A3579965%2CVSRPcmpt%3Aprimary" target="_blank"><i class="icon" data-icon="&#xe03e;"></i></a></li>
     
-          	<li><a href="#" target="_blank"><i class='icon' data-icon="&#xe033;"></i></a></li>
+          	<!-- <li><a href="#" target="_blank"><i class='icon' data-icon="&#xe033;"></i></a></li> -->
    
           	<li><a href="#" target="_blank"><i class='icon' data-icon="&#xe045;"></i></a></li>
 
